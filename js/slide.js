@@ -6,7 +6,6 @@ export default class slide {
 
   onStart(event) {
     event.preventDefault();
-    console.log("mouseDown");
     this.wrapper.addEventListener("mousemove", this.onMove);
   }
 
